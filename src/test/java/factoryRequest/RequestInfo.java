@@ -1,12 +1,13 @@
 package factoryRequest;
 
+import java.util.HashMap;
 import java.util.Map;
 
 public class RequestInfo {
 
     private String host;
     private String body;
-    private Map<String,String> headers;
+    private Map<String,String> headers =  new HashMap<>();
 
     public String getHost() {
         return host;
